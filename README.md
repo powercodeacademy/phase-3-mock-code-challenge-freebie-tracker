@@ -34,12 +34,12 @@ in a suggested order, but you can feel free to tackle the ones you think are
 easiest. Be careful: some of the later methods rely on earlier ones.
 
 **Remember!** This code challenge does not have tests. You cannot run `rspec`
-and you cannot run `learn test`. You'll need to create your own sample instances
+and you cannot run `bin/rspec`. You'll need to create your own sample instances
 so that you can try out your code on your own. Make sure your associations and
 methods work in the console before submitting.
 
 We've provided you with a tool that you can use to test your code. To use it,
-run `rake console` from the command line. This will start a `pry` session with
+run bin/rake console` from the command line. This will start a `pry` session with
 your classes defined. You can test out the methods that you write here. You are
 also encouraged to use the `seeds.rb` file to create sample data to test your
 models and associations.
@@ -138,7 +138,7 @@ is "freebie".
   - returns a collection of all the companies that the Dev has collected
     freebies from
 
-Use `rake console` and check that these methods work before proceeding. For
+Use bin/rake console` and check that these methods work before proceeding. For
 example, you should be able to call `Dev.first.companies` and see a list of the
 companies for the first dev in the database based on your seed data; and
 `Freebie.first.dev` should return the dev for the first freebie in the database.
