@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+ruby "3.3.5"
 # An object-relational mapper
 # https://guides.rubyonrails.org/active_record_basics.html
 gem "activerecord", "~> 6.1"
@@ -20,4 +21,12 @@ gem "sqlite3", "~> 1.4"
 # https://github.com/jarmo/require_all
 gem "require_all"
 
+gem "fiddle"
+gem "logger"
+gem "ostruct"
 gem "pry"
+
+
+gem "rubocop-rake", "~> 0.7.1"
+
+gem "rubocop", "~> 1.80"
